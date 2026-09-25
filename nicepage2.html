@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .sec1{
+            width: 100%;
+            height: 130vh;
+            background-color: #332B29;
+        }
+        .sec1inner1{
+            width: 100%;
+            height: 130vh;   
+            background-color: #332B29;
+        }
+        .sec1innerbox1{
+            width: 50%;
+            height:100vh;
+            float: left;
+            padding:100px ;
+        }
+        .sec1innerbox2{
+            width: 50%;
+            height: 100vh;
+            float: left;
+        }
+        .sec1img{
+            width: 100%;
+            position: relative;
+            left: 200px;
+        }
+        
+        .sec1btn{
+            font-size: 25px;
+            position: relative;
+            left: 200px;
+            top: 30px;
+            padding: 16px 30px;
+            border: 2px solid white;
+            color: white;
+            background-color: #332B29;
+            cursor: pointer;
+            margin-top: 10px;
+         
+        }
+        .sec1btn:hover{
+            background-color: white;
+            color:#332B29 ;
+            border-color: #332B29;
+        }
+        .sec1innerbox2child1{
+            width: 500px;
+            position: relative;
+            top: 200px;
+        }
+        .sec1innerbox2child1 h1{
+            font-size: 73px;
+            color: white;
+        }
+        .sec1innerbox2child1 h2{
+            font-size: 35px;
+            color: white;
+            font-weight: lighter;
+        }
+        .sec1innerbox2child1 p{
+            color: white;
+            font-size: 20px;
+        }
+
+
+        .sec1innerbox1   p{
+            color: white;
+            font-size: 23px;
+            position: relative;
+            top: 20px;
+            left: 200px;
+            letter-spacing: 3px;
+            
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .sec1inner2{
+            width:100%;
+            height: 450PX;
+            background-color:#332B29;
+            float: left;
+        
+
+        }
+         .squarebox1{
+            width: 260px;
+            height: 350px;
+            position: relative;
+            background-color:#F0612D;
+            float: left;
+            margin: 20px;
+            left: 180px;
+        } 
+        .chilsuarebox2{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: white;
+            margin-top: 30px;
+            left: 20px;
+        }
+        .squarebox1 p{
+            font-size: 19px;
+            color: white;
+            position: relative;
+            top: 8px;
+            left: 12px;
+            
+            
+        }
+        .squarebox1 h1{
+            font-size: 30px;
+            color: white;
+            margin: 15px;
+            left:12px ;
+        }
+        .iconbox{
+            font-size: 80px;
+            color:#F0612D;
+        
+            
+        }
+        .sec2{
+            width: 100%;
+            height: 100vh;
+            background-image:url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/eb761ef6d7f45e82b76f5101/vcc-min.jpg);
+            background-size: cover;
+            margin-top:450px ;
+            
+            
+        }
+        .sec2inner2{
+            width: 50%;
+            height: 100vh;
+            float: left;
+            padding: 50px;
+            
+
+        }
+        .sec2inner2box{
+            width: 80%;
+            height:150px;
+            background-color: white;
+            margin: 20px ; 
+            padding: 40px;
+            box-shadow: 0px 0px 3px 4px white; 
+              
+        }
+        .sec3{
+            width: 100%;
+            height: 120vh;
+            background-color: #332B29;
+
+        }
+        .sec3inner1{
+            width: 30%;
+            height: 80vh;
+            float: left;
+        }
+        .sec3inner2{
+            width: 70%;
+            height:80vh;
+            float:left;
+            padding: 40px;
+        
+
+        }
+        .sec3inner1box{
+            width: 550px;
+            height: 250px;
+            background-color: #F0612E;
+            color: white;
+            position: relative;
+            top: 400px;
+            left: 200px;
+            padding: 50px;
+        }
+
+        .sec3inner1box h1{
+            font-size: 60px;
+        }
+
+        .sec4{
+            width: 100%;
+            height: 300px;
+            background-color: #332B29;
+        }
+
+        .sec4 p{
+            width: 60%;
+            height: auto;
+            color: white;
+            float: left;
+            position: relative;
+            left: 350px;
+            margin-top: 10px;
+            font-size: 25px;
+        }
+
+        .sec4btn{
+           font-size: 25px;
+            position: relative;
+            right: 550px;
+            top: 150px;
+            padding: 16px 30px;
+            border: 2px solid white;
+            color: white;
+            background-color: #332B29;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .sec4btn:hover{
+            background-color: white;
+            color:#332B29 ;
+            border-color: #332B29;
+        }
+
+        .sec5{
+            width: 100%;
+            height: 100vh;
+            background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/271932a056b25bd8a940be83/3333-min.jpg);
+        }
+
+        .sec5inner1{
+            width: 50%;
+            height:40vh;
+            background-color: white; 
+            position: relative;
+            top: 150px;
+            left: 80px;
+            font-size: 30px;
+            padding: 30px;
+        }
+        
+        .sec5inner1 p{
+            color: white;
+            position: relative;
+            top: 80px;
+            font-size:25px ;
+        }
+
+        .sec5btn{
+            font-size: 25px;
+            position: relative;
+            left: 20px;
+            top: 50px;
+            padding: 16px 30px;
+            border: 2px solid white;
+            color: white;
+            background-color: #838EA1;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .sec5btn:hover{
+            background-color: white;
+            color:#332B29 ;
+            border-color: white;
+        }
+
+        .sec6{
+            width:100% ;
+            height:130vh ;
+            background-color: #332B29;
+            float: left;
+
+        }
+        .sec6inner1{
+            width: 50%;
+            height:100vh;
+            float: left;
+            color: #332B29;
+         }
+
+        .sec6inner2{
+            width: 50%;
+            height:100vh;
+            background-color:#332B29;
+            float:left;
+            text-align: center;
+            color: white;
+           
+        }
+
+        .sec6inner1 h1{
+            color: white;
+            font-size: 60px;
+            position: relative;
+            left: 30px;
+            top: 50px;
+            padding: 60px;
+        }
+
+        .sec6inner1 p{
+            
+            position: relative;
+            left: 30px;
+            top: 20px;
+            padding:40px ;
+            
+            font-size: 25px;
+            color: white;
+            line-height: 40px;
+        
+
+
+        }
+
+        .sec6container1{
+            width:300px ;
+            height:300px ; 
+            float: left;
+            padding: 20px;
+            margin: 20px;
+                 
+        }
+
+        .sec6container2{
+            width:300px ;
+            height:300px ;   
+            float: left;
+            padding: 20px;
+            margin: 20px;
+            
+        }
+
+        .sec6container3{
+            width:300px ;
+            height:300px ;
+            float: left;
+            padding: 20px;
+            margin: 20px;
+            
+        }
+
+        .sec6container4{
+            width:300px ;
+            height:300px ;
+            float: left;
+            padding: 20px;
+            margin: 20px;
+                     
+        }
+
+        .sec7{
+            width: 100%;
+            height: 100vh;
+            background-color: #332B29;
+            float: left;
+        }
+
+        .sec7inner1{
+            width: 50%;
+            height:100vh ;
+            float: left;
+            position: relative;
+            top: 40px;
+            left: 140px;
+        }
+
+        .sec7inner2{
+            width: 50%;
+            height:100vh ;
+            float: left;
+            color: white;
+        }
+
+        .sec7inner2 h1{
+            width: 500px;
+            height: 200px;
+            background-color: #F0612D;
+            float: left;
+            position: relative;
+            font-size: 50px;
+            top: 90px;
+            color: white;
+            padding: 30px;
+
+        }
+
+        .sec7container{
+            
+            top: 100px;
+            position: relative;
+            float: left;
+            left: 150px;
+            padding: 30px;
+            font-size: 25px;
+            width: 600px;
+            
+        }
+
+        .learmoreBtn{
+            position: relative;
+            left: 0px;
+        }
+
+        .sec8{
+            width: 100%;
+            height: 100vh;   
+        }
+        
+        
+
+        .sec8box1{
+            width: 60%;
+            position: relative;
+            left: 40px;
+            
+
+        }
+
+        .sec8inner1{
+            width:300px ;
+            height:250px ; 
+            float: left;
+            padding: 30px;
+            margin: 20px;
+            background-color: rgba(243, 245, 246, 0.6);
+            bottom: 700px;
+            position: relative;
+        }
+        .sec8inner1 h1 {
+            font-size: 25px;
+        }
+
+        .sec8inner1 p{
+            font-size: 20px;
+            top: 40px;
+            line-height: 30px;
+
+        }
+
+         .sec8inner2{
+            width:300px;
+            height:250px;
+            background-color: rgba(36, 37, 38, 0.4);
+            float: left;
+            padding: 30px;
+            margin: 20px;
+            bottom: 700px;
+            position: relative;    
+        }
+
+        .sec8inner2 h1{
+            font-size: 35px;
+            color: white; 
+        }
+        .sec8inner2 p{
+            font-size: 20px;
+            color: white;
+            margin-top: 15px;
+        }
+
+        
+
+         .sec8inner3{
+            width:300px;
+            height:250px;
+            background-color: #F0612D;
+            float: left;
+            padding: 30px;
+            margin: 20px;
+            bottom: 650px;
+            position: relative;
+            color: white;
+        }
+
+        .sec8inner3 h1{
+            font-size: 30px; 
+        }
+
+        .sec8inner3 p{
+            font-size: 20px; 
+            margin-top: 20PX;
+        }
+
+
+
+         .sec8inner4{
+            width:300px;
+            height:250px;
+            background-color: white;
+            float: left;
+            padding: 30px;
+            margin: 20px;
+            bottom: 650px;
+            position: relative;
+        }
+
+        .sec8inner4 h1{
+            font-size: 25px; 
+        }
+
+        .sec8inner4 P{
+            font-size: 20px;
+            line-height: 30px; 
+        }
+
+        .freepikbtn{
+            font-size: 30px;
+            position: relative;
+            bottom: 50px;
+            color: white;
+            left: 70px;      
+        }
+        .sec8more{
+            
+            position: relative;
+            cursor: pointer;
+            background-color: white;
+            
+        }
+
+        .sec9{
+            width: 100%;
+            height: 200vh;
+            background-color: #332B29;
+            position: relative;
+            float: left;
+            bottom: 620px;
+            
+        }
+
+        .sec9inner1{
+            width: 60%;
+            height: 100vh;
+            
+            position: relative;
+            left: 350px;
+            top: 70px;
+            
+            box-sizing: border-box;
+        }
+
+        .sec9inner2{
+            width: 100%;
+            height:70vh ;
+            background-color:#F0612E;
+           padding: 20px;
+            float: left;
+            
+            
+
+        }
+
+        .sec9inner2box1{
+            width: 35%;
+            height: 200px;
+            position: relative;
+            float: left;
+            left: 200px;
+            padding: 20px;
+            top: 40px;
+            
+            
+            
+        
+            
+        }
+
+        .sec9inner2box2{
+            width: 35%;
+            height: 300px;
+            position: relative;
+            float: right;
+            right: 70px;
+            bottom: 90px;
+            
+            
+        }
+
+        .sec10{
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            float: left;
+            background-color: #332B29;
+            bottom: 620px;
+
+        }
+
+        .sec10inner1{
+            width: 50%;
+            height: 100vh;
+           position: relative;
+            float: left;
+            z-index: 10;
+        }
+
+         .sec10inner2{
+            width: 50%;
+            height: 100vh;
+            position: relative;
+           
+            float: left;
+        }
+
+        .sec10inner1box1{
+            width: 85%;
+            height:500px ;
+            background-color:white;
+            position: relative;
+            float: left;
+            padding: 30px;
+            box-sizing: border-box;
+
+            bottom: 350px;
+            left: 600px;
+            
+        }
+
+        .sec10inner1box1 h1{
+            font-size: 50px;
+            padding: 10px;
+
+        }
+
+        .sec10inner1box1 h2{
+            color: rgb(84, 72, 72);
+            top: 5px;
+            left: 0px; 
+            padding: 15px;
+        }
+
+        .sec10inner1box1 p{
+            font-size: 25px;
+            top: 10px;
+            padding: 10px;
+        }
+        .sec10inner1box1 button{
+            background-color: #F0612D;
+            color:white;
+            
+        }
+        .sec10inner1box1 button:hover{
+            background-color: #262729;
+            color: white;
+            
+        }
+
+        .secc10inner1box2{
+            height: 400px;
+            position: absolute;
+            
+
+        }
+
+        .sec11{
+            width: 100%;
+            height: 150vh;
+            background-color: #332B29;
+
+            position: relative;
+            float: left;
+            bottom: 620px;
+            
+        }
+
+        .sec11 h1{
+            font-size: 75px;
+            text-align: center;
+            color: white;
+        }
+        .sec11 h4{
+            font-size: 35px;
+            text-align: center;
+            color: white;
+        }
+
+        .sec11innerbox1{
+            width: 50%;
+            height: 100vh;
+          
+            position: relative;
+            float: left;
+            
+            
+        }
+
+        .sec11container1{
+            width: 600px;
+            height: 700px;
+            background-color: white;
+            position: absolute;
+            left: 200px;
+            top: 30px;
+            padding: 40px;
+        }
+
+        .sec11innerbox2{
+            width: 50%;
+            height: 100vh;
+
+            position: relative;
+            float: left;
+            
+            
+        }
+
+        .child2{
+            width: 160px;
+            height: 250px;
+            color: black;
+           
+            font-size: 20px;
+            position: relative;
+            
+           top: 20px;
+            float: left;
+            padding: 10px;
+        }
+
+        .child2 p{
+            font-size: 20px;
+            color: #262729;
+            line-height: 20px;
+            margin: 15px;
+        }
+
+        .freepikbtn2{
+            font-size: 30px;
+            position: relative;
+            bottom: 50px;
+            color: #5d5f63;
+            left: 120px; 
+            top: 250px;  
+               
+        }
+
+        .containerlogin{
+            width: 520px;
+            height: 700px;
+            background-color: white;
+            position: relative;
+            float: right;
+            top: 30px;
+            right: 170px;
+            padding: 30px;
+        }
+
+        .sec11innerbox2 h1{
+            font-size: 40px;
+            color: black;
+            margin-top: 20px;
+            
+            
+        }
+
+        .sec11innerbox2 h5{
+            font-size: 20px;
+            color: #5d5f63;
+            line-height: 30px;
+            padding: 20px;
+        }
+
+        .loginbox  label {
+            font-size: 20px;
+            margin: 10px;
+        }
+
+        .loginbox  ::placeholder{
+            font-size: 20px;
+        }
+
+        .loginbox input,textarea{
+            font-size: 35px;
+            border: none;
+            background-color:#E5E5E5 ;
+            padding: 5px;
+            box-sizing: border-box;
+            margin: 10px;
+        }
+
+       
+
+        .loginbox button{
+            width: 450px;
+            height: 60px;
+            font-size: 25px ;
+            background-color: #F0612D;
+            position: relative;
+            float: left;
+            
+            padding: 10px;
+            color: white;
+            border: 2px;
+        }
+
+        .loginbox button:hover{
+            background-color: #000000;
+            
+
+        }
+
+
+
+
+
+
+        
+
+      
+
+        
+
+      
+
+
+
+
+        
+        
+
+    
+
+
+    </style>
+</head>
+<body>
+
+        <!--   // sec1 starting //  -->
+
+    <div class="sec1"> 
+        <div class="sec1inner1">
+
+
+            <div class="sec1innerbox1">
+                <img src="./image.png" class="sec1img"  alt="">
+                <p>Lectus urna duis convallis convallis tellus id interdum velit. Diam volutpat commodo sed egestas egestas fringilla. Vel elit scelerisque mauris pellentesque. </p>
+                       <button class="sec1btn "> LEARN MORE </button>
+            </div>
+
+            <div class="sec1innerbox2">
+                <div class="sec1innerbox2child1">
+                    <h2>Consulting company</h2>
+                    <h1>Time to boost your knowledge and skills</h1>
+                    <p>Image from <u>freepik</u></p>
+
+                </div>
+            </div>
+            
+        </div>
+         
+       
+
+            
+        <div class="sec1inner2">
+         
+            <div class="squarebox1">
+
+                 <div class="chilsuarebox2">
+                    <div class="iconbox"> <i class="fa fa-line-chart  icone" aria-hidden="true"></i></div>
+                 </div>
+                 <h1>Strategy</h1>
+                <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                
+                
+            </div>
+            <div class="squarebox1">
+
+                 <div class="chilsuarebox2">
+                    <div class="iconbox">  <i class="fa fa-users icone"></i> </div>
+                 </div>
+                 <h1>Management</h1>
+                <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                
+                
+            </div>
+            <div class="squarebox1">
+
+                 <div class="chilsuarebox2">
+                    <div class="iconbox"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></div>
+                 </div>
+                 <h1>Procurement</h1>
+                <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                
+                
+            </div>
+            <div class="squarebox1">
+
+                 <div class="chilsuarebox2">
+                    <div class="iconbox" > <i class="fa fa-handshake-o" aria-hidden="true"></i></div>
+                 </div>
+                 <h1>Consultation</h1>
+                <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                
+                
+            </div>
+
+           
+
+        </div>
+    </div>
+     
+    <!--  // sec1 ending // -->
+
+
+
+
+
+    <!--   sec2 starting -->
+
+    <div class="sec2">
+        <div class="sec2inner2"></div>
+        <div class="sec2inner2">
+            <div class="sec2inner2box">
+                <h1>Alignment</h1>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div> <br>
+            <div class="sec2inner2box">
+                <h1>Growth</h1>
+                <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+            </div><br>
+            <div class="sec2inner2box">
+                <h1>Relevance</h1>
+                <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+
+            </div><br>
+            <button >image from <u> freepik</u></button >
+        </div>
+    </div>
+
+
+
+
+
+   <!--  sec2 ending -->
+
+    <!-- sec3 starting -->
+
+    <div class="sec3">
+        <div class="sec3inner1">
+            <div class="sec3inner1box">
+                <h1>Welcome to Consulting Firm</h1></div>
+        </div>
+        <div class="sec3inner2">
+            <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/d0db21cc2965521eb5953f18/93516901-dce5-1960-1ce6-93dcebad0bb7.jpg" width="100%" alt="">
+        </div>
+      
+    </div>
+
+
+    <!--sec3 ending  -->
+    
+    <!-- sec4 stating -->
+
+    <div class="sec4">
+          <div class="sec4inner">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+             <p>Image from <u>freepik</u></p>
+             <button class="sec4btn "> LEARN MORE </button>
+        </div>
+    </div>
+
+    <!-- sec 4 ending -->
+
+    <!-- sec5 starting -->
+
+    <div class="sec5">
+        <div class="sec5inner1">
+            <h1>Together we can envision, inspire and transform your business.</h1>
+            <p>Nibh venenatis cras sed felis eget velit aliquet sagittis id. Tellus pellentesque eu tincidunt tortor aliquam nulla.</p>
+            <br>
+            <p>Image from <u>freepik</u></p>
+            <br>
+            <button class="sec5btn "> LEARN MORE </button>
+
+        </div>
+    </div>
+
+    <!-- sec5 ending -->
+
+   <!-- sec 6 starting  -->
+
+   <div class="sec6">
+    <div class="sec6inner1">
+        <h1>We place a heavy focus on enabling and sustaining change.</h1>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+             <br>
+        <p>Image from <u>freepik</u></p>
+        <button class="sec1btn "> LEARN MORE </button>
+
+        
+    </div>
+    <div class="sec6inner2">
+        <div class="sec6container1">
+            <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/00aa5abc613459b89be9546c/e.jpg" alt="" style="border-radius:50%;" width="100%">
+            <h1>Adam Jonson</h1>
+            <h2>Vice President</h2>
+        </div>
+        <div class="sec6container2">
+            <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/088290d888cd5735bc11af87/tytyt54.jpg" alt="" style="border-radius:50%;" width="100%">
+            <h1>Bob Larson </h1>
+            <h2>National Partner</h2>
+        </div>
+        <div class="sec6container3">
+            <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/2842f4a1f0a85a0f9b26dca7/bfc62dcf-11dc-f72c-9f80-d5d6784457fc.jpg" alt="" style="border-radius:50%;" width="100%">
+            <h1>Games Larson</h1>
+            <h2>Manager</h2>
+        </div>
+        <div class="sec6container4">
+            <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8f50f8f477045e67912b69a9/trtrrt.jpg" alt="" style="border-radius: 50%;" width="100%">
+            <h1>Marry Hudson</h1>
+            <h2>Manager</h2>
+        </div>
+    </div>
+   </div>
+
+        <!--  sec 6 ending  -->
+
+        <!-- sec  7 starting -->
+    
+    <div class="sec7">
+        <div class="sec7inner1">
+            <img src="https://images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/4bcd5f7a9fd45318b41d263b/ers54t.jpg" alt="" width="100%">
+        </div>
+        <div class="sec7inner2">
+            <h1>Small business consulting services</h1>
+        <div class="sec7container">
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Image from <u>freepik</u></p>
+            <button class="sec1btn learmoreBtn "> LEARN MORE </button>
+        </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- sec 7 ending -->
+
+    <!-- sec 8 starting -->
+
+    <div class="sec8">
+        <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/358d828d0f5957d08c0271d4/vbt-min.jpg" alt="" width="100%">
+            <p class="freepikbtn">Image from <u>freepik</u></p>
+
+        <div class="sec8box1">
+
+        <div class="sec8inner1">
+            <h1> <b>Targeted online marketing programs boost customer conversion rates</b></h1>
+            <p>Sample text. Click to select the Text Element.</p>
+            <button sec8more><u> MORE </u></button>
+        </div>
+
+        <div class="sec8inner2">
+            <h1>About Us</h1>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                 Excepteur sint occaecat cupidatat non proident.</p>
+                 <button sec8more><u> MORE </u></button>
+        </div>
+
+        <div class="sec8inner3">
+            <h1>Helping clients grow faster than the market</h1>
+            <p>Sample text. Click to select the Text Element.</p>
+            <button sec8more><u> MORE </u></button>
+        </div>
+
+        <div class="sec8inner4">
+            <h1>Logistics company builds value by consolidating brands</h1>
+            <br>
+            <p>Sample text. Click to select the Text Element.</p>
+            <button sec8more><u> MORE </u></button>
+        </div>
+        
+        </div>
+    </div>
+
+
+    <!-- sec  8 ending -->
+
+    <!-- sec 9 starting -->
+
+
+     <div class="sec9">
+
+
+        <div class="sec9inner1">
+            <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/653d158dc6265eb2b387da25/hghh.jpg" alt="" width="100%">
+
+        </div>
+        <div class="sec9inner2">
+            <div class="sec9inner2box1">
+                <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/a9012adfb126528f8d867668/rt6.jpg" alt="" width="100%">
+            </div>
+            <div class="sec9inner2box2">
+                <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/cd7a3d28aefb5a2d820ed0cf/gfff.jpg" alt="" width="100%">
+            </div>
+        </div>
+        
+
+
+
+
+     </div>
+
+    <!-- sec  9 ending -->
+
+    <!-- seec 10 starting -->
+
+    <div class="sec10">
+        <div class=" sec10inner1">
+            <div class="sec10inner1box1">
+                <h1>Our business consultants are experienced leaders</h1>
+            <h2 class="freepikbtn">Image from <u>freepik</u></h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.
+                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button class="sec1btn learmoreBtn "> LEARN MORE </button>         
+            </div>
+        </div>
+
+        <div class=" sec10inner2">
+            <div secc10inner1box2>
+                <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/1a8a824e9ada5337b9db8499/hgghh.jpg" alt="" width="80% ">
+            </div>
+        </div>
+
+
+
+       
+
+    </div>
+
+
+
+     <!-- sec  10 ending -->
+
+
+     <!--   sec 11 starting -->
+
+    <div class="sec11">
+        <h1>Contact Us</h1>
+        <h4>Any questions or remarks? Just write us a message!</h4>
+        <div class="sec11innerbox1">
+            <div class="sec11container1">
+                <div childcontainer1>
+                    <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/e209342dedfc51eca5bfda84/uyuyuy.jpg" alt="" width="80%">
+                    <h2 class="freepikbtn2">Image from <u>freepik</u></h2>
+
+                    <div class="child2">
+                    <h3>Sydney</h1>
+                    <p>45 Pirrama Rd, Pyrmont NSW 2022</p>
+                   </div>
+                    <div class="child2">
+                        <h3>Melbourne</h1>
+                        <p>163 Collins St, Melbourne VIC 3000</p>
+                    </div>
+                    <div class="child2">
+                        <h3>Los Angeles</h1>
+                        <p>340 Main St, Venice CA 902291, USA</p>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="sec11innerbox2">
+            <div class="containerlogin">
+                <h1>Get in Touch</h1>
+                <h5>Have an inquiry or some feedbak for us? Fill out the form below to contact our team.</h5>
+                
+               <div class="loginbox">
+                 <label>Name</label>
+                 <br>
+                <input type="text" placeholder="Enter your name">
+                <br>
+                <label>Email</label>
+                <br>
+                <input type="email" placeholder="Enter your email">
+                <br>
+                <label>How can we help?</label>
+                <br>
+                <textarea placeholder="Write your message..."></textarea>
+                <br><br><br>
+                <button><b>SUBMITE</b></button>
+               </div>
+   
+   
+
+    
+
+   
+
+   
+               
+            </div>  
+        </div>
+        </div>
+
+
+
+     <!-- sec 11 ending    -->
+
+
+    
+
+    
+
+  
+
+
+
+    
+</body>
